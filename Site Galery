@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: aquamarine;">Galery</title>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a style="color: aquamarine;" class="navbar-brand" href="#">Galery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="http://127.0.0.1:5500/index.html"><span class="sr-only">Página Inicial</span></a>
+            <a class="nav-item nav-link" href="#">Destaques</a>
+            <a class="nav-item nav-link" href="#">Preços</a>
+            <a class="nav-item nav-link disabled" href="#">Sobre</a>
+          </div>
+        </div>
+      </nav>
+      ]<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Navbar</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+  </form>
+</nav>
+<nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+      </div>
+    </form>
+  </nav>
+        <article>
+            <header>
+                <h1>Galery</h1>
+                <time>12/04/2023</time>
+            </header>
+            <img src="Logo Galery.png">
+            <p style="color: aquamarine;">Galery é um projeto de três amigos que juntos buscam criar uma plataforma simples e fácil de usar.
+            </p>
+        </article>
+    </article>
+</head>
+<body>
+    <body bgcolor="black"></body>
+</body>
+</html>
