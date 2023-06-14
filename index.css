@@ -1,4 +1,6 @@
-@import url(reset.css);
+* {
+  margin: 0;
+}
 
 /* Estilo para a barra de navegação */
 nav {
@@ -193,7 +195,7 @@ nav button[type="submit"]:hover {
 
 /* estilo para o campo de pesquisa */
 .form-inline input[type="search"] {
-  width: 400px;
+  width: 390px;
   padding: 10px 20px;
   border: none;
   border-radius: 25px;
