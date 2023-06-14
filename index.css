@@ -2,6 +2,19 @@
   margin: 0;
 }
 
+body {
+  text-align: center;
+  background-image: url(Wallpaper-top.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#listaImagens img {
+  margin: 10px;
+  max-height: 1000px;
+}
+
 /* Estilo para a barra de navegação */
 nav {
   display: flex;
