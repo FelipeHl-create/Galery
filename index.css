@@ -4,7 +4,7 @@
 
 body {
   text-align: center;
-  background-image: url(Wallpaper-top.jpg);
+  background-image: url(Wallpaper-top1.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -13,11 +13,13 @@ body {
 #listaImagens img {
   margin: 10px;
   max-height: 1000px;
+  max-width: 1000px;
 }
 
 /* Estilo para a barra de navegação */
 nav {
   display: flex;
+  background-image: url(Wallpaper-top0.jpg);
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -139,7 +141,13 @@ nav {
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #057a6d;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /* Estilo para o campo de pesquisa na barra de navegação */
@@ -226,4 +234,8 @@ nav button[type="submit"]:hover {
   background-color: #f5f5f5;
   color: #000;
   font-size: 18px;
+}
+
+footer {
+  color: white;
 }

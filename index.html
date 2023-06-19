@@ -46,9 +46,17 @@
         <input type="text" id="imagem" name="imagem" accept="image/*" placeholder="Insira endereço de imagem">
         <button onClick="adicionarImagem()">Adicionar Imagem</button>
       </div>
+      <br>
+      <p style="color: white">Ou</p>
+      <br>
+      <div class="form-wrapper">
+        <input type="file" id="userImagem" name="userImagem" accept="image/*" style="width: 110px;">
+        <button onClick="adicionarUserImagem()">Enviar</button>
+      </div>
       <div id="listaImagens"></div>
     </div>
     <script src="Funcoes.js"></script>
+    <br>
     <section>
       <footer>
         <p>Galery é um projeto de três amigos que juntos tentam montar uma galeria de artistas do mundo todo... Será que conseguimos?</p>
